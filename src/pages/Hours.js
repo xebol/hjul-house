@@ -6,7 +6,7 @@ function Hours() {
     <h1>HOURS OF OPERATION</h1>
     <div className="hours">
       <div className="day">Sunday</div>
-      <div className="hours-open">10AM - 8PM</div>
+      <div className="hours-open">CLOSE</div>
       
       <div className="day">Monday</div>
       <div className="hours-open">10AM - 8PM</div>
