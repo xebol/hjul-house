@@ -1,0 +1,31 @@
+.contact-us {
+  display: flex;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.contact-us-img {
+display: flex;
+align-items: center;
+margin-left: 100px;
+margin-top: 20px;
+margin-bottom: 100px;
+height: 80vh;
+}
+
+.contact-info {
+  padding-left: 20px;
+  font-size: 2.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.contact-us-btn{
+  padding: 5px;
+  margin: 10px;
+}
