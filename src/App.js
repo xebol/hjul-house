@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Hours from "./pages/Hours";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/hours" element={<Hours />}></Route>
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
