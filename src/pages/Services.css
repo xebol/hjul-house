@@ -1,0 +1,14 @@
+.services-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  max-width: 800px;
+  margin-left: 300px;
+}
+
+.services-title {
+  position: relative;
+}
