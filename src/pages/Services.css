@@ -17,13 +17,9 @@
   flex-direction: column;
 }
 
-.label {
+.services-title .services-label {
   position: relative;
   padding: 10px;
-}
-
-.services-label {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +31,8 @@
   cursor: pointer;
 }
 
-.services-label::before {
+
+.services-title .services-label::before {
   content: '+';
   position: absolute;
   top: 50%;
@@ -44,12 +41,21 @@
   font-size: 1.5em;
 }
 
-.services-content {
+.services-title.active .services-label::before{
+  content: '-';
+  font-size: 2em;
+}
+
+.services-title .services-content {
   position: relative;
-  padding: 10px;
+  background-color: bisque;
   width: 50vw;
-  height: 10px;
+  height: 0px;
   overflow: hidden;
   transition: 0.5s;
   overflow-y: auto;
+}
+
+.services-title.active .services-content {
+  height: 200px;
 }

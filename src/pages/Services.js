@@ -3,21 +3,19 @@ import "./Services.css";
 
 function Services() {
 
-  const accordion = document.getElementsByClassName('services-content');
-
-  for (let i = 0; i < accordion.length; i++) {
-    accordion[i].addEventListener('click', () => {
-      accordion[i].classList.toggle('active');
-    });
-  }
-
+  const toggleAccordion = (event) => {
+    const servicesTitle = event.target.closest('.services-title');
+    if (servicesTitle) {
+      servicesTitle.classList.toggle('active');
+    }
+  };
 
   return (
     <div className="services-page">
       <h1>Services</h1>
-      <div className="services-title">
+      <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Basics</div>
-        <div className="services-content">
+        <div className="services-content" >
           <ul>
             <li>Hanger alignment</li>
             <li>Align and adjust brakes</li>
@@ -26,12 +24,13 @@ function Services() {
             <li>Bottom bracket inspection</li>
             <li>Lube chain</li>
           </ul>
+          <h5>$89.99</h5>
         </div>
       </div>
 
-      <div className="services-title">
+      <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Essentials</div>
-        <div className="services-content">
+        <div className="services-content" >
           <h5>INCLUDES THE BASICS</h5>
           <ul>
             <li>Full bike wash</li>
@@ -39,11 +38,11 @@ function Services() {
             <li>Wheels trued</li>
             <li>Adjust wheel bearings</li>
           </ul>
-
+          <h5>$159.99</h5>
         </div>
       </div>
 
-      <div className="services-title">
+      <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Works</div>
         <div className="services-content">
           <h5>INCLUDES THE ESSENTIALS</h5>
@@ -54,6 +53,7 @@ function Services() {
             <li>Replace & reroute all cables and housing</li>
             <li>Service front suspension</li>
           </ul>
+          <h5>$349.99</h5>
         </div>
       </div>
       <h1>All parts and installation are extra</h1>
