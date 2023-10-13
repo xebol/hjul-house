@@ -2,11 +2,21 @@ import "./Services.css";
 
 
 function Services() {
+
+  const accordion = document.getElementsByClassName('services-content');
+
+  for (let i = 0; i < accordion.length; i++) {
+    accordion[i].addEventListener('click', () => {
+      accordion[i].classList.toggle('active');
+    });
+  }
+
+
   return (
     <div className="services-page">
       <h1>Services</h1>
       <div className="services-title">
-        <div className="services-label">The Basics        </div>
+        <div className="services-label">The Basics</div>
         <div className="services-content">
           <ul>
             <li>Hanger alignment</li>
@@ -22,7 +32,7 @@ function Services() {
       <div className="services-title">
         <div className="services-label">The Essentials</div>
         <div className="services-content">
-          <h5>Includes the Basics</h5>
+          <h5>INCLUDES THE BASICS</h5>
           <ul>
             <li>Full bike wash</li>
             <li>Deep clean drive train components</li>
@@ -36,7 +46,7 @@ function Services() {
       <div className="services-title">
         <div className="services-label">The Works</div>
         <div className="services-content">
-          <h5>Includes the Essentials</h5>
+          <h5>INCLUDES THE ESSENTIALS</h5>
           <ul>
             <li>Disassemble entire bike and clean parts </li>
             <li>Overhaul & replace bearing systems</li>

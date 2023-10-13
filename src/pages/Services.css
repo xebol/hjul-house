@@ -11,4 +11,45 @@
 
 .services-title {
   position: relative;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label {
+  position: relative;
+  padding: 10px;
+}
+
+.services-label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(163, 87, 87);
+  color: beige;
+  text-shadow: 1px 1px 1px black;
+  height: 50px;
+  width: 50vw;
+  cursor: pointer;
+}
+
+.services-label::before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.services-content {
+  position: relative;
+  padding: 10px;
+  width: 50vw;
+  height: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
 }
