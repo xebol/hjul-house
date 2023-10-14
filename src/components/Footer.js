@@ -6,8 +6,8 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footer">
+      <h3>Hjul House</h3>
       <div className="socials-container">
-        <h3>Hjul House</h3>
         <p>123 Gravel Road</p>
         <p>555-555-5555</p>
         <div className="socials">

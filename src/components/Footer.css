@@ -1,40 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
-.footer{
-  border: 5px solid black;
-  padding-top: 20px;
+.footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: wheat;
+  margin: 0 auto;
+  background-color: #035167;
 }
 
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
 
-.socials-container h3 {
+.footer h3 {
   font-family: 'Homemade Apple', cursive;
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
   padding: 0;
   margin: 0;
+  color: #d1c7c7;
+  text-shadow: 2px 2px 4px black;
 }
 
-
 .socials-container p {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   font-size: 1.5rem;
+  color: #d1c7c7;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .socials {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 0;
+  padding: 0;
   margin-bottom: 10px;
+  font-size: .75rem;
+  margin: 0 auto;
 }
 
 .fa-icon {
-  margin-right: 10px;
+  margin-right: 15px;
+  color: #a0aba8;
+}
+.fa-icon:hover {
+  color: #8b9ca1;
+  cursor: pointer;
+}
+
+.footer p {
+  margin: 5px 0;
+  color: #d1c7c7;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Montserrat', sans-serif;
 }
