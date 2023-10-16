@@ -7,6 +7,7 @@
   flex-direction: column;
   margin: 0;
   padding-top: 25px;
+  background-color: antiquewhite;
 }
 
 .homepage h3 {
@@ -18,7 +19,7 @@
 }
 
 .centered-logo {
-  background-image: url("../images/detailed-bike-logo-premium-quality_23-2148828806.jpg");
+  background-image: url("../images/detailed-bike-logo-premium-quality_23-2148828806-PhotoRoom.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
@@ -29,7 +30,6 @@
   align-items: center;
   flex-direction: column;
   padding: 10px;
-  margin-bottom: 10px;
 }
 
 .homepage-slogan {
@@ -43,7 +43,7 @@
 
 .homepage-slogan h4{
   font-size: 2rem;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px, 0, 15px, 0;
 }
