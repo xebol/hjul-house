@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 .contact-us {
   display: flex;
   padding: 10px;
   margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #035167;
 }
 
 .contact-us-img {
@@ -10,11 +14,11 @@ align-items: center;
 margin-left: 100px;
 margin-top: 20px;
 margin-bottom: 100px;
-height: 80vh;
+height: 78vh;
 }
 
 .contact-info {
-  padding-left: 50px;
+  padding-left: 60px;
   font-size: 2.5rem;
 }
 
@@ -23,6 +27,7 @@ height: 80vh;
   flex-direction: column;
   font-size: 24px;
   margin: 10px;
+  color: #035167;
 }
 
 .message-to-send {
@@ -42,6 +47,7 @@ height: 80vh;
   border-left: 0;
   border-right: 0;
   border-top: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-us-btn{
@@ -51,7 +57,7 @@ height: 80vh;
   margin: 10px;
   margin-left: 0;
   color: white;
-  background-color: #D48C70;
+  background-color: #B97D60;
   border-radius: 10%;
   border: 0;
   height: 40px;

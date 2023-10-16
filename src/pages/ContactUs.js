@@ -36,7 +36,7 @@ function ContactUs() {
       <div className="contact-info">
         <h1>Contact Us</h1>
         <form autoComplete="off" className="contact-form" onSubmit={handleSubmit}>
-          <label> Fullname</label>
+          <label> Name</label>
           <input type="text" name="name" value={info.name} onChange={handleChange} className="value-input"/>
           <label> Email </label>
           <input type="email" name="email" value={info.email} onChange={handleChange}  className="value-input"/>
