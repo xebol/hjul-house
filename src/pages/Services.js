@@ -12,7 +12,7 @@ function Services() {
 
   return (
     <div className="services-page">
-      <h1>Services</h1>
+      <h1>In need of a tune up?</h1>
       <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Basics</div>
         <div className="services-content" >
@@ -34,7 +34,7 @@ function Services() {
           <h5>INCLUDES THE BASICS</h5>
           <ul>
             <li>Full bike wash</li>
-            <li>Deep clean drive train components</li>
+            <li>Deep clean drivetrain components</li>
             <li>Wheels trued</li>
             <li>Adjust wheel bearings</li>
           </ul>
@@ -57,6 +57,58 @@ function Services() {
         </div>
       </div>
       <h1>All parts and installation are extra</h1>
+
+      <div className="other-services">
+        <h1>Other Services</h1>
+        <div className="services-title" onClick={toggleAccordion}>
+          <div className="services-label">Wheels and Tires</div>
+          <div className="services-content" >
+            <ul>
+              <li>Tire Patch</li>
+              <li>Tire Installation</li>
+              <li>Tubeless Tire Installation</li>
+              <li>Wheel Building</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="services-title" onClick={toggleAccordion}>
+          <div className="services-label">Drivetrain</div>
+          <div className="services-content" >
+            <ul>
+              <li>Bottom Bracket & Chainring Installation</li>
+              <li>Cassette Installation</li>
+              <li>Front Derailleur Installation</li>
+              <li>Rear Derailleur Installation</li>
+              <li>Derailleur Alignments</li>
+              <li>Chain Installation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="services-title" onClick={toggleAccordion}>
+          <div className="services-label">Brakes</div>
+          <div className="services-content">
+            <ul>
+              <li>Cable Brake Installation</li>
+              <li>Hydraulic Brake Installation</li>
+              <li>Hydraulic Brake Flush</li>
+              <li>Brake Pad Replacement</li>
+            </ul>
+          </div>
+        </div>
+        <div className="services-title" onClick={toggleAccordion}>
+          <div className="services-label">Suspension</div>
+          <div className="services-content">
+            <ul>
+              <li>Service Front Suspension</li>
+              <li>Service Rear Suspension</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* make the Contact us and link to the Contact us page */}
+      <h1>Don't see what you're looking for? Contact us</h1> 
     </div>
   );
 }
