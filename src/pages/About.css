@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F6EEE0;
 }
 
 .about-header{

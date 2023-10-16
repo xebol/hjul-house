@@ -6,6 +6,8 @@
   margin-right: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #035167;
+  background-color: #F6EEE0;
+  width: 100vw;
 }
 
 .contact-us-img {
@@ -28,26 +30,39 @@ height: 78vh;
   font-size: 24px;
   margin: 10px;
   color: #035167;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .message-to-send {
+  height: 110px;
   margin-top: 10px;
   resize: none;
   border-bottom: 2px solid #3a3939;
   border-left: 0;
   border-right: 0;
   border-top: 0;
+  background-color: transparent;
+  color: #035167;
+  outline: none;
+  font-size: 24px;
+  word-wrap: break-word;
 }
 
 .value-input {
-  height: 30px;
-  margin-top: 5px;
+  height: 40px;
+  margin-top: 15px;
   margin-bottom: 10px;
   border-bottom: 2px solid #3a3939;
   border-left: 0;
   border-right: 0;
   border-top: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  outline: none;
+  color: #035167;
+  font-size: 24px;
+  padding-bottom: 15px;
 }
 
 .contact-us-btn{
