@@ -1,5 +1,6 @@
 import "./Services.css";
 import { Link, NavLink } from "react-router-dom";
+import questionMark from "../images/question-PhotoRoom.png";
 
 function Services() {
 
@@ -13,7 +14,7 @@ function Services() {
   return (
     <div className="services-page">
       <div className="services-offered"></div>
-      <h1>In need of a tune up?</h1>
+      <h1>In Need of a Tune Up?</h1>
       <h2>Checkout these packages</h2>
       <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Basics</div>
@@ -124,11 +125,16 @@ function Services() {
             </ul>
           </div>
         </div>
+        <h2>Other services are charged on an hourly basis</h2>
       </div>
-      <h1>Other services are charged on an hourly basis</h1>
       <div className="other-services-inquries">
-        <h1>Don't see what you're looking for?</h1>
-        <Link to="/contact" as={NavLink} id="services-link">Contact Us</Link>
+        <div className="other-inquiries">
+          <h1>Don't see what you're looking for?</h1>
+          <Link to="/contact" as={NavLink} id="services-link">Contact Us</Link>
+        </div>
+        <div className="question-mark">
+          <img src={questionMark} alt="questionMark" className="question-mark" />
+        </div>
       </div>
     </div>
   );

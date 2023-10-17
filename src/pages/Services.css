@@ -11,6 +11,10 @@
   color: #035167;
 }
 
+.services-page h1 {
+  font-size: 2.25em;
+}
+
 .services-offered {
   background-image: url("../images/bike-repair-services.png");
   background-repeat: no-repeat;
@@ -18,8 +22,9 @@
   background-position: 0 -175px;
   height: 300px;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
+
 
 .services-title {
   position: relative;
@@ -114,7 +119,7 @@
   padding: 10px;
   cursor: pointer;
   font-size: 20px;
-  background-color:  #dbbfb8;;
+  background-color:  #dbbfb8;
   border-radius: 10%;
   border: 0;
   height: 45px;
@@ -128,11 +133,31 @@
   background-position: 0 -180px;
   height: 350px;
   width: 100vw;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .other-services-inquries {
 display: flex;
+align-items: center;
+justify-content: space-evenly;
 margin: 20px;
+margin-bottom: 50px;
+margin-top: 100px;
 padding: 15px;
+width: 100%;
+color: #035167;
+}
+
+.other-inquiries {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-mark {
+  height: 170px;
+  width: 170px;
+  margin: 10px;
 }
