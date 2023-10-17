@@ -1,5 +1,5 @@
 import "./Services.css";
-
+import { Link, NavLink } from "react-router-dom";
 
 function Services() {
 
@@ -12,7 +12,10 @@ function Services() {
 
   return (
     <div className="services-page">
+      <div className="services-offered">
+      </div>
       <h1>In need of a tune up?</h1>
+      <h2>Checkout these packages</h2>
       <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Basics</div>
         <div className="services-content" >
@@ -24,7 +27,7 @@ function Services() {
             <li>Bottom bracket inspection</li>
             <li>Lube chain</li>
           </ul>
-          <h5>$89.99</h5>
+          <h5 className="price">$89.99</h5>
         </div>
       </div>
 
@@ -38,7 +41,7 @@ function Services() {
             <li>Wheels trued</li>
             <li>Adjust wheel bearings</li>
           </ul>
-          <h5>$159.99</h5>
+          <h5 className="price">$159.99</h5>
         </div>
       </div>
 
@@ -53,10 +56,9 @@ function Services() {
             <li>Replace & reroute all cables and housing</li>
             <li>Service front suspension</li>
           </ul>
-          <h5>$349.99</h5>
+          <h5 className="price">$349.99</h5>
         </div>
       </div>
-      <h1>All parts and installation are extra</h1>
 
       <div className="other-services">
         <h1>Other Services</h1>
@@ -107,8 +109,10 @@ function Services() {
           </div>
         </div>
       </div>
-      {/* make the Contact us and link to the Contact us page */}
-      <h1>Don't see what you're looking for? Contact us</h1> 
+      <h1>All parts and installation are extra</h1>
+      <div className="other-services">
+        <h1>Don't see what you're looking for?</h1>  <Link to="/contact" as={NavLink} id="services-link">Contact Us</Link>
+      </div>
     </div>
   );
 }
