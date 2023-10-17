@@ -12,8 +12,7 @@ function Services() {
 
   return (
     <div className="services-page">
-      <div className="services-offered">
-      </div>
+      <div className="services-offered"></div>
       <h1>In need of a tune up?</h1>
       <h2>Checkout these packages</h2>
       <div className="services-title" onClick={toggleAccordion}>
@@ -61,15 +60,20 @@ function Services() {
       </div>
 
       <div className="other-services">
+        <div className="repair-services"></div>
         <h1>Other Services</h1>
         <div className="services-title" onClick={toggleAccordion}>
           <div className="services-label">Wheels and Tires</div>
           <div className="services-content" >
             <ul>
-              <li>Tire Patch</li>
+              <li>Flat Tire Repair</li>
+              <li>Tire Replacement</li>
               <li>Tire Installation</li>
               <li>Tubeless Tire Installation</li>
               <li>Wheel Building</li>
+              <li>Wheel Truing</li>
+              <li>Spoke Replacement</li>
+              <li>Hub Maintenance</li>
             </ul>
           </div>
         </div>
@@ -79,11 +83,13 @@ function Services() {
           <div className="services-content" >
             <ul>
               <li>Bottom Bracket & Chainring Installation</li>
+              <li>Crankset Inspection and Replacement</li>
               <li>Cassette Installation</li>
-              <li>Front Derailleur Installation</li>
-              <li>Rear Derailleur Installation</li>
+              <li>Front and Rear Derailleur Installation</li>
+              <li>Derailleur Hanger Alignment</li>
               <li>Derailleur Alignments</li>
               <li>Chain Installation</li>
+              <li>Pedal and Crank Arm Tightening</li>
             </ul>
           </div>
         </div>
@@ -96,6 +102,10 @@ function Services() {
               <li>Hydraulic Brake Installation</li>
               <li>Hydraulic Brake Flush</li>
               <li>Brake Pad Replacement</li>
+              <li>Brake Lever Adjustment</li>
+              <li>Brake Lever and Caliper Lubrication</li>
+              <li>Rotor Inspection and Replacement (Disc Brakes)</li>
+              <li>Brake Cable Tension Adjustment</li>
             </ul>
           </div>
         </div>
@@ -103,15 +113,22 @@ function Services() {
           <div className="services-label">Suspension</div>
           <div className="services-content">
             <ul>
-              <li>Service Front Suspension</li>
-              <li>Service Rear Suspension</li>
+              <li>Suspension Fork and Rear Shock Inspection</li>
+              <li>Suspension Fork and Rear Shock Service</li>
+              <li>Suspension Component Alignment</li>
+              <li>Suspension Lockout Maintenance</li>
+              <li>Suspension Fork Travel Adjustment</li>
+              <li>Suspension Pivot Bolt Tightening</li>
+              <li>Suspension Linkage Inspection and Lubrication</li>
+              <li>Suspension Fork and Rear Shock Air Pressure Adjustment</li>
             </ul>
           </div>
         </div>
       </div>
-      <h1>All parts and installation are extra</h1>
-      <div className="other-services">
-        <h1>Don't see what you're looking for?</h1>  <Link to="/contact" as={NavLink} id="services-link">Contact Us</Link>
+      <h1>Other services are charged on an hourly basis</h1>
+      <div className="other-services-inquries">
+        <h1>Don't see what you're looking for?</h1>
+        <Link to="/contact" as={NavLink} id="services-link">Contact Us</Link>
       </div>
     </div>
   );

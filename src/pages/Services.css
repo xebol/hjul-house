@@ -12,7 +12,7 @@
 }
 
 .services-offered {
-  background-image: url("../images/bike-repair.png");
+  background-image: url("../images/bike-repair-services.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -175px;
@@ -69,12 +69,17 @@
   overflow: hidden;
   transition: 0.5s;
   overflow-y: hidden;
-  background-color: transparent;
   font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: lightgrey;
 }
 
-.services-content li {
-  list-style-type: none;
+.services-title.active .services-content {
+  text-align: left;
+  height: 250px;
+  background-color: lightgrey;
 }
 
 .price {
@@ -86,11 +91,8 @@
   margin-top: 20px;
 }
 
-.services-title.active .services-content {
-  height: 250px;
-}
 
-.upgrade{
+.upgrade {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
@@ -98,6 +100,9 @@
 .other-services {
   margin-top: 50px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #services-link {
@@ -114,4 +119,20 @@
   border: 0;
   height: 45px;
   width: 150px;
+}
+
+.repair-services {
+  background-image: url("../images/repair-service.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -180px;
+  height: 350px;
+  width: 100vw;
+  margin-bottom: 50px;
+}
+
+.other-services-inquries {
+display: flex;
+margin: 20px;
+padding: 15px;
 }
