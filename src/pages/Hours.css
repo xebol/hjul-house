@@ -15,6 +15,8 @@
 .business-hours h1 {
   font-family: 'Montserrat', sans-serif;
   color: #035167;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .hours-background {
@@ -22,11 +24,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: 60%;
   position: absolute;
   top: 0;
-  left: 0;
-  opacity: 0.09;
+  left: 10;
+  opacity: 0.08;
 }
 
 .hours {
@@ -34,15 +36,15 @@
   text-align: center;
   align-items: center;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 50vh;
   width: 50%;
-  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-top: 5px solid #035167;
   border-bottom: 5px solid #035167;
   margin-bottom: 70px;
   position: relative; 
   font-size: 26px;
-  padding-bottom: 70px;
   font-family: 'Nunito', sans-serif;
   color: #035167;
   font-weight: bold;
