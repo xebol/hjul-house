@@ -68,25 +68,38 @@
   height: 0px;
   overflow: hidden;
   transition: 0.5s;
-  overflow-y: auto;
+  overflow-y: hidden;
   background-color: transparent;
   font-family: 'Nunito', sans-serif;
+}
+
+.services-content li {
+  list-style-type: none;
 }
 
 .price {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding-top: 0;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .services-title.active .services-content {
-  height: 220px;
+  height: 250px;
+}
+
+.upgrade{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .other-services {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 #services-link {
   text-decoration: none;
   margin: 0 40px 40px;

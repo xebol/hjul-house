@@ -19,6 +19,7 @@ function Services() {
       <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Basics</div>
         <div className="services-content" >
+          <h5 className="price">$89.99</h5>
           <ul>
             <li>Hanger alignment</li>
             <li>Align and adjust brakes</li>
@@ -27,36 +28,35 @@ function Services() {
             <li>Bottom bracket inspection</li>
             <li>Lube chain</li>
           </ul>
-          <h5 className="price">$89.99</h5>
         </div>
       </div>
 
       <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Essentials</div>
         <div className="services-content" >
-          <h5>INCLUDES THE BASICS</h5>
+          <h5 className="price">$159.99</h5>
           <ul>
+            <li className="upgrade">INCLUDES THE BASICS</li>
             <li>Full bike wash</li>
             <li>Deep clean drivetrain components</li>
             <li>Wheels trued</li>
             <li>Adjust wheel bearings</li>
           </ul>
-          <h5 className="price">$159.99</h5>
         </div>
       </div>
 
       <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Works</div>
         <div className="services-content">
-          <h5>INCLUDES THE ESSENTIALS</h5>
+          <h5 className="price">$349.99</h5>
           <ul>
+            <li className="upgrade">INCLUDES THE ESSENTIALS</li>
             <li>Disassemble entire bike and clean parts </li>
             <li>Overhaul & replace bearing systems</li>
             <li>Flush hydraulic system</li>
             <li>Replace & reroute all cables and housing</li>
             <li>Service front suspension</li>
           </ul>
-          <h5 className="price">$349.99</h5>
         </div>
       </div>
 
