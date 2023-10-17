@@ -125,7 +125,7 @@ function Services() {
             </ul>
           </div>
         </div>
-        <h2>Other services are charged on an hourly basis</h2>
+        <h4>OTHER SERVICES ARE CHARGED AT $25/HR</h4>
       </div>
       <div className="other-services-inquries">
         <div className="other-inquiries">
