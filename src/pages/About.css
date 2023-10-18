@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .about {
   display: flex;
@@ -36,8 +37,23 @@
   align-items: center;
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
   width: 70%;
   font-family: 'Nunito', sans-serif;
   color: #035167;
+}
+
+.our-mission {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.our-mission h2 {
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.our-vision h2 {
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
 }
