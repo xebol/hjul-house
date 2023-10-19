@@ -102,7 +102,6 @@
   .hours-background {
     width: 100%; /* Adjust the width for tablets */
     opacity: 0.1; /* Adjust opacity for tablets */
-     margin-top: -20px;
   }
 
   .hours {
