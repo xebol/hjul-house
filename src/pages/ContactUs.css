@@ -82,3 +82,78 @@ height: 78vh;
 .contact-us-btn:hover {
   background-color: #d59c85;
 }
+
+/* Styles for screens with a width up to 600px (typically for phones) */
+@media screen and (max-width: 600px) {
+  .contact-us {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+
+  .contact-us-img {
+    margin: 20px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    height: auto; /* Allow the image to adjust its height */
+  }
+
+  .contact-info {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .contact-form {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .message-to-send {
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .value-input {
+    height: 30px; /* Adjust the height for input fields */
+    margin-top: 10px; /* Adjust the margin */
+    margin-right: 20px;
+  }
+
+  .contact-us-btn {
+    font-size: 18px; /* Adjust font size for the button */
+  }
+}
+
+/* Styles for screens with a width between 601px and 1024px (typically for tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .contact-us {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+
+  .contact-us-img {
+    margin: 20px;
+    margin-bottom: 0;
+    height: auto; /* Allow the image to adjust its height */
+  }
+
+  .contact-info {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    font-size: 1.75rem; /* Adjust font size for smaller screens */
+  }
+
+  .contact-form {
+    font-size: 1.75rem; /* Adjust font size for smaller screens */
+  }
+
+  .message-to-send {
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .value-input {
+    height: 30px; /* Adjust the height for input fields */
+    margin-top: 10px; /* Adjust the margin */
+    margin-right: 20px;
+  }
+
+  .contact-us-btn {
+    font-size: 18px; /* Adjust font size for the button */
+  }
+}
