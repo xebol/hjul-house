@@ -24,11 +24,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 60%;
+  width: 80%;
   position: absolute;
   top: 0;
   left: 10;
   opacity: 0.08;
+  margin-top: -60px;
 }
 
 .hours {
@@ -60,4 +61,60 @@
   color: #035167;
   z-index: 1;
   font-family: 'Montserrat', sans-serif;
+}
+
+/* Styles for screens with a width up to 600px (typically for phones) */
+@media screen and (max-width: 600px) {
+  .business-hours h1 {
+    font-size: 1.8rem; /* Adjust the font size for smaller screens */
+    margin-bottom: 30px; /* Adjust margin for smaller screens */
+    margin-top: 30px; /* Adjust margin for smaller screens */
+  }
+
+  .hours-background {
+    width: 92%; 
+    margin-top: -20px;
+    opacity: 0.1;
+  }
+
+  .hours {
+    width: 90%; /* Make the hours section wider for smaller screens */
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    padding-top: 60px; /* Adjust padding for smaller screens */
+    padding-bottom: 40px; /* Adjust padding for smaller screens */
+    margin-bottom: 30px; /* Adjust margin for smaller screens */
+  }
+
+  .day {
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Styles for screens with a width between 601px and 1024px (typically for tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .business-hours h1 {
+    font-size: 2rem; /* Adjust the font size for tablets */
+    margin-bottom: 40px; /* Adjust margin for tablets */
+    margin-top: 40px; /* Adjust margin for tablets */
+  }
+
+  .hours-background {
+    width: 100%; /* Adjust the width for tablets */
+    opacity: 0.1; /* Adjust opacity for tablets */
+     margin-top: -20px;
+  }
+
+  .hours {
+    width: 70%; /* Adjust the width for tablets */
+    font-size: 1.8rem; /* Adjust the font size for tablets */
+    padding-top: 80px; /* Adjust padding for tablets */
+    padding-bottom: 60px; /* Adjust padding for tablets */
+    margin-bottom: 50px; /* Adjust margin for tablets */
+  }
+
+  .day {
+    font-size: 2rem; /* Adjust the font size for tablets */
+    padding: 6px; /* Adjust padding for tablets */
+  }
 }
