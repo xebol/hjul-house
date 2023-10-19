@@ -83,7 +83,7 @@
 /* Styles for screens with a width between 601px and 1024px (typically for tablets) */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .footer {
-    height: 25vh; /* Adjust the height for tablet screens */
+    height: 23.5vh; /* Adjust the height for tablet screens */
   }
 
   .footer h3 {
