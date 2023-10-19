@@ -154,6 +154,12 @@ height: 78vh;
   }
 
   .contact-us-btn {
-    font-size: 18px; /* Adjust font size for the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+    border-radius: 30%;
+    font-weight: bold;
+    padding: 10px;
   }
 }
