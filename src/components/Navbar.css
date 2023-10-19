@@ -35,3 +35,34 @@
 .links-container {
   margin-left: auto;
 }
+
+/* Styles for screens with a width up to 600px (typically for phones) */
+@media screen and (max-width: 600px) {
+  .nav {
+    height: 70px;
+    padding: 0 10px;
+  }
+
+  .link {
+    margin: 0 5px;
+    font-size: 1rem;
+  }
+
+  .logo-image {
+    width: 80px;
+    height: 70px;
+    margin-top: 5px;
+  }
+}
+
+/* Styles for screens with a width between 601px and 1024px (typically for tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .nav {
+    height: 80px;
+  }
+
+  .link {
+    margin: 0 15px;
+    font-size: 1.4rem;
+  }
+}
