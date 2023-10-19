@@ -88,12 +88,12 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .hjul-house {
     font-size: 3rem; /* Adjust the font size for tablets */
-    margin: -70px;
+    margin: -20px;
   }
 
   .centered-logo {
-    margin-top: 65px;
-    min-height: 70vh; /* Adjust the height for tablet screens */
+    margin-top: 20px;
+    min-height: 80vh; /* Adjust the height for tablet screens */
     min-width: 80%;
   }
 
