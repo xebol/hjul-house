@@ -48,7 +48,7 @@ function Services() {
       <div className="services-title" onClick={toggleAccordion}>
         <div className="services-label">The Works</div>
         <div className="services-content">
-          <h5 className="price">$349.99</h5>
+          <h5 className="price" id="the-works">$349.99</h5>
           <ul>
             <li className="upgrade">INCLUDES THE ESSENTIALS</li>
             <li>Disassemble entire bike and clean parts </li>
