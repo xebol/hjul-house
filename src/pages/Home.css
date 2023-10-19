@@ -10,11 +10,11 @@
   background-color: #F6EEE0;
 }
 
-.homepage h3 {
+.hjul-house{
   font-family: 'Homemade Apple', cursive;
   font-size: 3.5rem;
   font-weight: bold;
-  margin: -20px;
+  margin: -40px;
   color: #035167;
 }
 
@@ -23,20 +23,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
-  min-height: 90vh;
+  min-height: 80vh;
   min-width: 45%;
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  margin-top: 30px;
 }
 
 .homepage-slogan {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 40px;
   text-align: center;
   font-family: 'Nunito', sans-serif;
 }
@@ -52,4 +52,56 @@
   font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+/* Styles for screens with a width up to 600px (typically for phones) */
+@media screen and (max-width: 600px) {
+  .homepage {
+    padding-top: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .hjul-house {
+    font-size: 2rem; /* Reduce the font size for smaller screens */
+    padding-bottom: 400px;
+  }
+
+  .centered-logo {
+    margin-top: 40px;
+    min-height: 100%; /* Adjust the height for smaller screens */
+    min-width: 100%;
+  }
+
+  .homepage-slogan {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .homepage-slogan h4 {
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+  }
+
+  .homepage-slogan p {
+    font-size: 1.25rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* Styles for screens with a width between 601px and 1024px (typically for tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .hjul-house {
+    font-size: 3rem; /* Adjust the font size for tablets */
+    margin: -70px;
+  }
+
+  .centered-logo {
+    margin-top: 65px;
+    min-height: 70vh; /* Adjust the height for tablet screens */
+    min-width: 80%;
+  }
+
+  .homepage-slogan h4 {
+    font-size: 1.75rem; /* Adjust the font size for tablets */
+  }
+
+  .homepage-slogan p {
+    font-size: 1.4rem; /* Adjust the font size for tablets */
+  }
 }

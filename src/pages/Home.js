@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="homepage">
       <div className="centered-logo">
-        <h3>Hjul House</h3>
+        <h3 className="hjul-house">Hjul House</h3>
       </div>
       <div className="homepage-slogan">
         <h4>Bring your bike in for service today!</h4>
