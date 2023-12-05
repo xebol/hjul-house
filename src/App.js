@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,6 +10,18 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"
 
 function App() {
+  //get info on the current location of the page
+const location = useLocation()
+
+useEffect(() => {
+  //extract route from location.pathname
+  const routeName = location.pathname.replace("/", "")
+
+  //dynamically change title based on route name
+  document.title = routeName || "Hjul House";
+}, location.pathname)
+
+
   return (
     <>
       <Navbar />
