@@ -1,4 +1,4 @@
-import {HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,11 +7,9 @@ import ContactUs from "./pages/ContactUs";
 import Hours from "./pages/Hours";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"
-// import { Router } from "express";
 
 function App() {
   return (
-    <Router>
     <>
       <Navbar />
       <div className="App">
@@ -25,7 +23,6 @@ function App() {
       </div>
       <Footer />
     </>
-    </Router>
   );
 }
 
