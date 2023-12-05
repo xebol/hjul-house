@@ -19,7 +19,7 @@ useEffect(() => {
 
   //dynamically change title based on route name
   document.title = routeName || "Hjul House";
-}, location.pathname)
+}, [location.pathname])
 
 
   return (
