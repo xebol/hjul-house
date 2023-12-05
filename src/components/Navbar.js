@@ -14,10 +14,10 @@ function Navbar() {
         </div>
       </div>
       <div className="links-container">
-        <Link to="/about" as={NavLink} className="link">About</Link>
-        <Link to="/services" as={NavLink} className="link">Services</Link>
-        <Link to="/contact" as={NavLink} className="link">Contact Us</Link>
-        <Link to="/hours" as={NavLink} className="link">Hours</Link>
+        <Link to="/About" as={NavLink} className="link">About</Link>
+        <Link to="/Services" as={NavLink} className="link">Services</Link>
+        <Link to="/Contact" as={NavLink} className="link">Contact Us</Link>
+        <Link to="/Hours" as={NavLink} className="link">Hours</Link>
       </div>
     </div>
   );
