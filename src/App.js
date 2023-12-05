@@ -28,10 +28,10 @@ useEffect(() => {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/services" element={<Services />}></Route>
-          <Route path="/contact" element={<ContactUs />}></Route>
-          <Route path="/hours" element={<Hours />}></Route>
+          <Route path="/About" element={<About />}></Route>
+          <Route path="/Services" element={<Services />}></Route>
+          <Route path="/Contact" element={<ContactUs />}></Route>
+          <Route path="/Hours" element={<Hours />}></Route>
         </Routes>
       </div>
       <Footer />
